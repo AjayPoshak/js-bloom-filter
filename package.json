@@ -1,0 +1,23 @@
+{
+  "name": "js-bloom-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bloom-filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjayPoshak/js-bloom-filter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjayPoshak/js-bloom-filter/issues"
+  },
+  "homepage": "https://github.com/AjayPoshak/js-bloom-filter#readme",
+  "dependencies": {
+    "murmurhash": "^2.0.1"
+  }
+}
