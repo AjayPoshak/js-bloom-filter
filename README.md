@@ -1,7 +1,7 @@
 # A bloom filter implementation in JS
 
-This is an implementation of Bloom filter in JS. Bloom filters are probabilistic data structure.
-If an hashmap is occupying a lot of space, and we can relax the constraint of determinstic results, then we can use bloom filters to save space. Read [this paper](https://dl.acm.org/doi/pdf/10.1145/362686.362692) for more details.
+This is an implementation of Bloom filter in JS. Bloom filter is a probabilistic data structure.
+If an hashmap is occupying a lot of space, and the system permits us to do additional lookups to verify false-positives, then we can use bloom filters to save space. Read [this paper](https://dl.acm.org/doi/pdf/10.1145/362686.362692) for more details.
 
 ```js
 const bloomFilter = new BloomFilter(); // errorRate(optional), capacity (optional)

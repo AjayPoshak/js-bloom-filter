@@ -33,7 +33,6 @@ class BloomFilter {
     for (let i = 0; i < this.bpe; i++) {
       const hash = this.#getHash(element, this.#seeds[i]);
       const index = hash % this.bf.length;
-      console.log({ element, index });
       this.bf[index] = 1;
     }
   }
@@ -42,7 +41,6 @@ class BloomFilter {
     for (let i = 0; i < this.bpe; i++) {
       const hash = this.#getHash(element, this.#seeds[i]);
       const index = hash % this.bf.length;
-      console.log({ element, index });
       if (this.bf[index] === 0) return false;
     }
     return true;
